@@ -1,0 +1,19 @@
+# @package _global_
+# Fine-tune PARSeq Decoder ONLY on fixed curved_mix dataset
+defaults:
+  - override /model: parseq_finetune
+  - override /dataset: curved_mix_fixed
+
+model:
+  lr: 1e-4  # Lower learning rate for fine-tuning
+  weight_decay: 0.0
+  batch_size: 64
+
+trainer:
+  max_epochs: 50
+  val_check_interval: 1.0
+  devices: 1
+  accelerator: gpu
+
+# Load pretrained PARSeq checkpoint
+pretrained: pretrained=parseq.ckpt

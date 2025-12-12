@@ -1,0 +1,207 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+envs/
+ENV/
+env.bak/
+venv.bak/
+anaconda3/
+Anaconda3-*/
+.conda/
+.python-version
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+requirements/core.*.txt
+
+# PyTorch / ML artifacts
+outputs/
+results/
+models/
+hf_models/
+hf_cache/
+multirun/
+ray_results/
+*.ckpt
+*.pt
+*.pth
+pretrained=parseq.ckpt
+finetuned_parseq.pt
+parseq_pretrained.ckpt
+art_stage1/
+*_stage*/
+checkpoints/
+
+# Data and datasets (large files)
+data/
+data_fixed/
+dataset_splits/
+Datasets.md
+*.lmdb/
+*.mdb
+*.zip
+*.tar.gz
+*.tar
+art_dataset.zip
+curved_mix_dataset.zip
+totaltext_lmdb_dataset.zip
+parseq_submission.tar.gz
+parseq_submission/
+
+# Logs and monitoring
+*.log
+*.txt.log
+training*.log
+*_results.txt
+training_finetune.log
+tensorboard.log
+checkpoint_monitor.log
+auto_test*.log
+resume_finetune.log
+catastrophic_forgetting_results.txt
+epoch_test_results*.txt
+
+# Temporary and sample directories
+tmp/
+tmp_*/
+pip_tmp/
+pip_cache/
+representative_samples/
+final_*_samples/
+debug_samples/
+demo_images/
+samples_demo/
+qualitative_analysis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+d.ipynb
+
+# Gradio
+.gradio/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+*.bak
+*~
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
+
+# Flask / Django
+instance/
+.webassets-cache
+local_settings.py
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+
+# pipenv
+#Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# mkdocs
+/site
+
+# Rope
+.ropeproject
+
+# Spyder
+.spyderproject
+.spyproject
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Backup README
+README.old.md

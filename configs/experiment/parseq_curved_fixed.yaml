@@ -1,0 +1,18 @@
+# @package _global_
+# Fine-tune PARSeq on fixed curved_mix dataset (no data leakage)
+defaults:
+  - override /model: parseq
+  - override /dataset: curved_mix_fixed
+
+model:
+  lr: 5.7e-5  # Lower learning rate for fine-tuning
+  weight_decay: 0.0
+
+trainer:
+  max_epochs: 20
+  val_check_interval: 500
+  devices: 1
+  accelerator: gpu
+
+# Load pretrained PARSeq checkpoint
+pretrained: pretrained=parseq.ckpt
