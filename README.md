@@ -14,9 +14,7 @@ This work is part of coursework for **Natural Language Processing (CS685)** at *
 
 ### Team Members
 - **Vivek** (vivek005001)
-- **Nischay**
-- **Badal**
-- **Jatin**
+- **Naman** (namankhatakdotcpp)
 
 Our Presentation - NLP.pdf can be found in the root directory
 ---
